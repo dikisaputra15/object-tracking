@@ -28,7 +28,25 @@
             <a href="/CCI-Maps" class="nav-link">
               <i class="nav-icon far fa-file"></i>
               <p>
-                CCI Maps
+                CCI Track
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/Form-Maps" class="nav-link">
+              <i class="nav-icon far fa-file"></i>
+              <p>
+                Form Maps
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/All-Maps" class="nav-link">
+              <i class="nav-icon far fa-file"></i>
+              <p>
+                All Maps
               </p>
             </a>
           </li>

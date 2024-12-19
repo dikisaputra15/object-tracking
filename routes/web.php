@@ -22,4 +22,7 @@ Route::get('/', function () {
 Route::middleware(['auth'])->group(function () {
     Route::get('home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('/CCI-Maps', [App\Http\Controllers\MapsController::class, 'index']);
+    Route::get('/Form-Maps', [App\Http\Controllers\MapsController::class, 'formmaps']);
+    Route::post('/Store-Lokasi', [App\Http\Controllers\MapsController::class, 'storelokasi']);
+    Route::get('/All-Maps', [App\Http\Controllers\MapsController::class, 'allmaps']);
 });
